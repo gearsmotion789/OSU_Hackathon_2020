@@ -7,14 +7,14 @@
 .finaid-bigpage{
   background-color: white;
   color: grey;
-  height: 250vh;
+  height: 300vh;
 }
 
 
 #finaid-takeadvantage{
   padding-top: 18vh;
   padding-left: 10vw;
-  font-size: 42px;
+  font-size: calc(30px + 1.2vw);
   width: 50vw;
 }
 .finaid-underline{
@@ -43,13 +43,15 @@ img{
 .finaid-scholardollar{
   width: 50%;
   padding-left: 8vw;
+  margin-top: 5vh;
+  margin-bottom: -30vh;
 }
 .finaid-upto10k{
   text-align: center;
   left: 65vw;
   width: 26vw;
-  top: -20vh;
-  font-size: 36px;
+  top: 5vh;
+  font-size: calc(20px + 1.2vw);
   padding: 65px 25px 65px 25px;
   border-radius: 55px;
 }
@@ -58,8 +60,8 @@ img{
   position: relative;
   padding-left: 10vw;
   width: 26vw;
-  font-size: 40px;
-  top: -20vh;
+  font-size: calc(20px + 1.2vw);
+  top: 0vh;
 }
 /*
 .temp{
@@ -68,7 +70,8 @@ img{
 .finaid-pad{
   color: grey;
   padding-left: 6.5vw;
-  font-size: 28px;
+  font-size: calc(20px + 1.2vw);
+  margin-top: 15vh;
 }
 
 .finaid-step{
@@ -78,16 +81,20 @@ img{
 }
 .finaid-extrapad{
   padding-left: 3.5vw;
+  font-size: calc(10px + 1.2vw);
 }
 .finaid-siteimgcontainer{
   padding-top: 2vh;
-  width: 677px;
-  height: 381px;
+  width: 85vw;
+  height: 50vh;
+  max-width: 500px;
 }
 .finaid-small-width{
   width: 80%;
+  font-size: calc(10px + 1.2vw);
 }
 
 .finaid-smaller-width{
   width: 66%;
+  font-size: calc(10px + 1.2vw);
 }

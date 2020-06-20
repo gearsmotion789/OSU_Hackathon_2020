@@ -29,7 +29,7 @@ export default class Navbar extends Component {
           </div>
 
           <a href='/'>
-            <img className = "beaver" width= "200"  height = "100" src = {require("../assets/beaverLogo.png")} alt = "Website Logo"/>
+            <img className = "beaver" src = {require("../assets/beaverLogo.png")} alt = "Website Logo"/>
             {/* onClick={this.scrollToTop} */}
           </a>
 

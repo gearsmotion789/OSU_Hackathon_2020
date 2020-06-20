@@ -11,7 +11,7 @@ export default class FinancialAid extends Component{
           <div className = "imgContainer finaid-scholardollar">
             <img src = {require("../assets/scholardollars.png")}></img>
           </div>
-          <div className = "finaid-relative finaid-WhiteOnOrange finaid-upto10k"> Recieve up to $10,000+ in scholarships from OSU and connected providers</div>
+          <div className = "finaid-relative finaid-WhiteOnOrange finaid-upto10k"> Receive up to $10,000+ in scholarships from OSU and connected providers</div>
           <div className = "finaid-OrangeOnWhite finaid-how-to-apply">Read this Guide to find out how to apply</div>
         </div>
         <div className = "finaid-bigpage finaid-pad">
@@ -38,7 +38,7 @@ export default class FinancialAid extends Component{
           <div className = "finaid-extrapad finaid-small-width">
             Once you've fulfilled both applicatoins, simply click Submit.
              You may have to wait up to a year after the deadline before
-             you recieve acceptance or declination of a scholarship opportunity.
+             you receive acceptance or declination of a scholarship opportunity.
           </div>
           <div className = "finaid-step">Step 4:</div>
           <div className = "finaid-extrapad finaid-small-width">

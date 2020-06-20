@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Majors.css'
 
 export default class Majors extends Component{
@@ -6,26 +7,55 @@ export default class Majors extends Component{
     return (
         <div>
             <div class='majors'>
-                <div class='majorsBlackBox'>
+                <div class='majorsBlackBox'>   
                     <p id='majorsTitle'>Choose a college to find your major:</p>
                     <p id='majorsText'>> <a href="http://agsci.oregonstate.edu/" target="_blank"><u id="majorsColor">Agricultural Sciences</u></a></p>
-                    <p id='majorsText'>> <a href="#CoB"><u id="majorsColor">Business</u></a></p>
+                    
+                    <Link
+                        activeClass="active"
+                        to="CoB"
+                        spy={true}
+                        smooth={true}
+                        offset={-150}
+                        duration={500}>
+                        <p id='majorsText'>> <a href="#CoB"><u id="majorsColor">Business</u></a></p>
+                    </Link>
+                    
                     <p id='majorsText'>> <a href="http://ceoas.oregonstate.edu/" target="_blank"><u id="majorsColor">Earth, Ocean, and Atmospheric Sciences</u></a></p>
                     <p id='majorsText'>> <a href="http://education.oregonstate.edu/" target="_blank"><u id="majorsColor">Education</u></a></p>
-                    <p id='majorsText'>> <a href="#CoE"><u id="majorsColor">Engineering</u></a></p>
+                    
+                    <Link
+                        activeClass="active"
+                        to="CoE"
+                        spy={true}
+                        smooth={true}
+                        offset={-150}
+                        duration={500}>
+                        <p id='majorsText'>> <a href="#CoE"><u id="majorsColor">Engineering</u></a></p>
+                    </Link>
+                    
                     <p id='majorsText'>> <a href="http://www.forestry.oregonstate.edu/" target="_blank"><u id="majorsColor">Forestry</u></a></p>
                     <p id='majorsText'>> <a href="http://liberalarts.oregonstate.edu/" target="_blank"><u id="majorsColor">Liberal Arts</u></a></p>
                     <p id='majorsText'>> <a href="http://pharmacy.oregonstate.edu/" target="_blank"><u id="majorsColor">Pharmacy</u></a></p>
                     <p id='majorsText'>> <a href="http://health.oregonstate.edu/" target="_blank"><u id="majorsColor">Public Health and Human Services</u></a></p>
-                    <p id='majorsText'>> <a href="#CoS"><u id="majorsColor">Science</u></a></p>
+                    
+                    <Link
+                        activeClass="active"
+                        to="CoS"
+                        spy={true}
+                        smooth={true}
+                        offset={-150}
+                        duration={500}>
+                        <p id='majorsText'>> <a href="#CoS"><u id="majorsColor">Science</u></a></p>
+                    </Link>
+                    
                     <p id='majorsText'>> <a href="http://vetmed.oregonstate.edu/" target="_blank"><u id="majorsColor">Veterinary Medicine</u></a></p>
                     <p id='majorsRegister'><a href="myosu.oregonstate.edu"> <u>Learn how to register for classes</u></a></p>
-                    <a name = "CoB"></a>
                 </div>   
             </div>
             <div class='info'>
                 
-                <a class='majorsCollege' href="http://business.oregonstate.edu/" target="_blank">College of Business:</a>
+                <a id='CoB' class='majorsCollege' href="http://business.oregonstate.edu/" target="_blank">College of Business:</a>
                 <a class='majorsMajor' href="http://business.oregonstate.edu/programs/undergraduate/accounting" target="_blank">Accounting:</a>
                 <div className='majorsDescription'>Make financial decisions and drive strategy in large businesses,</div>
                 <div className='majorsDescription'>small businesses, governmental agency, or nonprofit organizations.</div>
@@ -99,11 +129,10 @@ export default class Majors extends Component{
                         <a href="https://career.oregonstate.edu/major/marketing" target="_blank">
                             <button class="majorsbtn">Explore More Careers</button>
                         </a>
-                        <a name = "CoE"></a>
                     </div> 
                 </div>
                 <hr className = "majorsLine"></hr>
-                <a class='majorsCollege' href="https://engineering.oregonstate.edu/" target="_blank">College of Engineering:</a>
+                <a id='CoE' class='majorsCollege' href="https://engineering.oregonstate.edu/" target="_blank">College of Engineering:</a>
                 <a class='majorsMajor' href="https://cce.oregonstate.edu/content/civil-engineering" target="_blank">Civil Engineering:</a>
                 <div className='majorsDescription'>Design, construction, and maintainance of public</div>
                 <div className='majorsDescription'>works, including roads, bridges, and harbors</div>
@@ -176,11 +205,10 @@ export default class Majors extends Component{
                         <a href="https://career.oregonstate.edu/major/mechanical-engineering" target="_blank">
                             <button class="majorsbtn">Explore More Careers</button>
                         </a>
-                        <a name = "CoS"></a>
                     </div>
                 </div>
                 <hr className = "majorsLine"></hr>
-                <a class='majorsCollege' href="https://science.oregonstate.edu/" target="_blank">College of Science:</a>
+                <a id='CoS' class='majorsCollege' href="https://science.oregonstate.edu/" target="_blank">College of Science:</a>
                 <a class='majorsMajor' href="https://science.oregonstate.edu/academics/majors/biology" target="_blank">Biology:</a>
                 <div className='majorsDescription'>Foundational study of life from the basic</div>
                 <div className='majorsDescription'>cellular level to broader ecosystem contexts.</div>

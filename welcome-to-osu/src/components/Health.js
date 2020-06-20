@@ -14,7 +14,7 @@ export default class Health extends Component{
                     </div>
 
                     <div>
-                        <p id='txt2'><u>Variety of Services, including:</u></p>
+                        <p id='title2'><u>Variety of Services, including:</u></p>
                         <ul id='list'>
                             <li>Allergy clinic</li>
                             <li>Immunization clinics</li>
@@ -31,7 +31,7 @@ export default class Health extends Component{
             <div class='gymSection'>
                 <div>
                     <p id='title'>Gym</p>
-                    <button class="btn outlineBtn btn1">Check out more information</button>
+                    <button class="btn outlineBtn btn1">Check out more info</button>
                 </div>
 
             </div>

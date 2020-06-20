@@ -4,9 +4,9 @@ import { Map, GoogleApiWrapper } from 'google-maps-react';
 const googleMapsKey = require('../credentials/googleMaps').googleMapsKey;
 
 const mapStyles = {
-  position: 'absolute',
-  width: '698px',
-  height: '550px',
+  maxWidth: '1000px',
+  width: '80vw',
+  height: '60vh',
 };
 
 export class MapContainer extends Component {
