@@ -29,3 +29,5 @@ p{
   display: grid;
   grid-template-columns: 1fr 1fr
 }
+
+body {  min-width:1000px; }

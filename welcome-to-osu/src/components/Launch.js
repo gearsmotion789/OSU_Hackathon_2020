@@ -75,7 +75,7 @@ export default class Launch extends Component{
         </div>
         <div  className = "slide" id="section3">
           <div id = "activities">
-            <div>
+            <div className = "act-titles">
               Activities
             </div>
             <div className = "inline">

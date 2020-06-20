@@ -1,56 +1,4 @@
 
-.dropbtn {
-  background-color: inherit;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-div.dropdown {
-  width: 100px;
-  margin-left: 1050px;
-  position: absolute;
-  display: inline-block;
-}
-button div.menuitem {
-  display: block;
-  width: 35px;
-  height: 2px;
-  background-color: white;
-  margin: 6px 0;
-}
-.content{
-  display: block;
-}
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: none;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown:hover .dropdown-content a {
-  display: block;
-}
-
-.dropdown:hover {
-  background-color: #b25200;
-}
 
 body {
   overflow-x: hidden; /* Hide scrollbars */
@@ -70,116 +18,22 @@ body {
   padding: 40px;
 }
 
-.beaver:hover {
-  color: white;
-  cursor: pointer;
-}
 
-header.header{
-  background-color: #DC4405;
-  position: sticky;
-  top: 0px;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-}
-header.header div{
-  display: inline-block;
-
-}
-
-.button {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-
-.dropbtn {
-  background-color: inherit;
-  color: white;
-  margin-top: -25px;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-.dropdown {
-  position: relative;
-  width: 100px;
-  margin-top: 60px;
-  margin-right: 5px;
-  float: right;
-  display: inline-block;
-}
-/*button div.menuitem {
-  display: block;
-  width: 35px;
-  height: 2px;
-  background-color: white;
-  margin: 6px 0;
-}*/
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: none;
-}
-
-.dropdown-content {
-  display: block;
-  background-color: #f1f1f1
-}
-
-
-.SpaceLaunch div{
-  margin-left: 10px;
-  position: absolute;
-  top: 25%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: left;
-  border-radius: 10px;
-  font-size: 45px;
-  display:  inline-block;
-  width: 400px;
-  margin-left: 40px;
-}
 .SpaceLaunch div.GetStarted{
   width: 200px;
   top:30%;
   margin-left: 420px;
-  font-size: 35px;
+  font-size: 1.8vw;
   background-color: #ff7702;
   border-radius: 18px;
   text-align: center;
 }
-.NewStudents{
-  font-size: 35px;
-  position: absolute;
-  color: grey;
-  top: 150px;
-  left: 950px;
-  width: 280px;
-}
 .DiscoverPath{
-  font-size: 45px;
+  font-size: 3.1vw;
   color: grey;
-  position: absolute;
-  left: 850px;
-  top: 300px;
+  position: relative;
+  top: 34vh;
+  left: 55vw;
 } /*
 .greyback{
   background-color: #979797;
@@ -228,8 +82,8 @@ img{
   display: inline-block;
   width: 50vw;
   height: 60vh;
-  top: 130px;
-  left: 30px;
+  top: 11vh;
+  left: 3vw;
   color: white;
 }
 .SpaceLaunch div{
@@ -240,7 +94,7 @@ img{
   transform: translateY(-50%);
   text-align: left;
   border-radius: 10px;
-  font-size: 65px;
+  font-size: 3.5vw;
   display:  inline-block;
   width: 35vw;
   margin-left: 40px;
@@ -250,9 +104,8 @@ img{
   width: 15vw;
   top:30%;
   left: 33vw;
-  font-size: 25px;
+  font-size: 2vw;
   background-color: #DC4405;
-  border-radius: 18px;
   text-align: center;
   border:  2px solid #DC4405;
   border-radius: 30px;
@@ -266,29 +119,22 @@ img{
   background-color: orangered;
 }
 .NewStudents{
-  font-size: 35px;
+  font-size: 2.5vw;
   position: absolute;
   color: grey;
-  top: 150px;
+  top: 18vh;
   left: 56vw;
   width: 40vw;
 }
-.DiscoverPath{
-  font-size: 65px;
-  color: grey;
-  position: absolute;
-  left: 850px;
-  top: 300px;
-}
 .DiscoverPath div{
-  font-size: 45px;
+  font-size: 3vw;
   padding-bottom: 4vh;
 }
 .greyback{
   background-color: #979797;
   height: 55vh;
   color: white;
-  font-size: 40px;
+  font-size: 2.6vw;
 }
 .greyback div{
   padding-left: 15px;
@@ -310,23 +156,23 @@ img{
 }
 
 #over100majors{
-  position: relative;
+  position: absolute;
   color:#757575;
-  top: 35%;
-  width: 30vw;
-  font-size: 47px;
-  left: 73%;
+  top: 3vw;
+  width: 25vw;
+  font-size: 3vw;
+  left: 73vw;
 }
 
 .moreoptions{
-  position: relative;
-  top: 17vh;
-  left: 75%;
+  position: absolute;
+  top: 10vw;
+  left: 79vw;
   padding: 10px;
   width: 17vw;
   border: 2px solid #707070;
   color: #757575;
-  font-size: 25px;
+  font-size: 2vw;
 }
 
 
@@ -341,8 +187,9 @@ img{
 #csimgcontainer{
   height: 40vh;
   display: block;
-  position: relative;
-  bottom: 29%;
+  position: absolute;
+  width: 80vw;
+  top: 0%;
 }
 .slide{
   height: 100vh;
@@ -351,13 +198,17 @@ img{
 #activities{
   height: 60vh;
   color: grey;
+}
+#activities div.act-titles{
   font-size: 50px;
 }
+
 
 #activities div{
   padding-left: 15px;
   padding-top:10px;
   padding-bottom: 15px;
+  font-size: 3vw;
 }
 #finalportion{
   height: 40vh;
@@ -366,7 +217,7 @@ img{
 .moreclubs{
   border: 2px solid #707070;
   color: #707070;
-  font-size: 35px;
+  font-size: 2vw;
 }
 
 #activities div.clubstext{
@@ -379,7 +230,7 @@ img{
 #section1-5{
   background-color: #ff7702;
   color: white;
-  font-size: 50px;
+  font-size: 3.4vw;
   padding-left: 5vw;
 }
 
@@ -394,11 +245,11 @@ img{
 .launch-getstarted-btn-containers{
   position: relative;
   left: 55vw;
-  top: -7vh;
+  top: -7.6vh;
 }
 .launch-getstarted-btns{
   width: 25vw;
-  font-size: 31px;
+  font-size: 2.9vw;
   color: white;
   padding: 15px 50px 15px 50px;
   background-color: #281300;
@@ -418,4 +269,5 @@ img{
 
 #launch-clubs{
   height: 40vh;
+  width: 100vw;
 }
