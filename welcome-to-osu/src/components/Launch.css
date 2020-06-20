@@ -216,16 +216,20 @@ img{
 {
   transform: none;
 }
+.content{
+  position: relative;
+  top: -5vh;
+}
 .SpaceLaunch{
   position: absolute;
   background-image: url("../assets/header.png");
-  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
   display: inline-block;
-  width: 775px;
-  height: 650px;
+  width: 50vw;
+  height: 60vh;
   top: 130px;
   left: 30px;
-  border-radius: 90px;
   color: white;
 }
 .SpaceLaunch div{
@@ -236,38 +240,53 @@ img{
   transform: translateY(-50%);
   text-align: left;
   border-radius: 10px;
-  font-size: 45px;
+  font-size: 65px;
   display:  inline-block;
-  width: 400px;
+  width: 35vw;
   margin-left: 40px;
 }
-.SpaceLaunch div.GetStarted{
-  width: 200px;
+.SpaceLaunch button.GetStarted{
+  position: relative;
+  width: 15vw;
   top:30%;
-  margin-left: 420px;
-  font-size: 35px;
-  background-color: #ff7702;
+  left: 33vw;
+  font-size: 25px;
+  background-color: #DC4405;
   border-radius: 18px;
   text-align: center;
+  border:  2px solid #DC4405;
+  border-radius: 30px;
+  font-family: 'Gadugi';
+  font-style: normal;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+.SpaceLaunch button.GetStarted:hover{
+  background-color: orangered;
 }
 .NewStudents{
   font-size: 35px;
   position: absolute;
   color: grey;
   top: 150px;
-  left: 950px;
-  width: 280px;
+  left: 56vw;
+  width: 40vw;
 }
 .DiscoverPath{
-  font-size: 45px;
+  font-size: 65px;
   color: grey;
   position: absolute;
   left: 850px;
   top: 300px;
 }
+.DiscoverPath div{
+  font-size: 45px;
+  padding-bottom: 4vh;
+}
 .greyback{
   background-color: #979797;
-  height: 60vh;
+  height: 55vh;
   color: white;
   font-size: 40px;
 }
@@ -284,28 +303,30 @@ img{
   padding-top: 20px;
   margin-bottom: 15px;
 }
+
 .bottomportion{
-  height: 40vh;
+  height: 45vh;
   position: relative;
 }
+
 #over100majors{
+  position: relative;
+  color:#757575;
   top: 35%;
   width: 30vw;
   font-size: 47px;
-  left: 68%;
+  left: 73%;
 }
 
-#moreoptions{
-  font-size: 25px;
-  border-style: solid;
-  border-width: 2px;
-  top: 15vh;
-  left: 73%;
+.moreoptions{
+  position: relative;
+  top: 17vh;
+  left: 75%;
   padding: 10px;
   width: 17vw;
-  background-color: white;
   border: 2px solid #707070;
-  color: #707070;
+  color: #757575;
+  font-size: 25px;
 }
 
 
@@ -313,20 +334,15 @@ img{
   max-width: 100%;
   max-height: 100%;
 }
-.bottomportion div{
-  position: relative;
-  color:#757575;
+#csimg{
+  max-width: 90%;
+  max-height: 90%;
 }
-.bottomportion button{
-  position: relative;
-  color: #757575;
-}
-
 #csimgcontainer{
   height: 40vh;
   display: block;
   position: relative;
-  bottom: 31%;
+  bottom: 29%;
 }
 .slide{
   height: 100vh;
@@ -352,14 +368,54 @@ img{
   color: #707070;
   font-size: 35px;
 }
-.moreclubs:hover{
-  background-color: grey;
-  color: white;
-}
+
 #activities div.clubstext{
   padding-bottom: 0px;
 }
 
 .imgContainers{
-  width: 40vw;
+  height: 40vh;
+}
+#section1-5{
+  background-color: #ff7702;
+  color: white;
+  font-size: 50px;
+  padding-left: 5vw;
+}
+
+.underline{
+  text-decoration: underline;
+}
+.launch_title{
+  font-size: 70px;
+  padding-top: 8vh;
+  padding-bottom: 7vh;
+}
+.launch-getstarted-btn-containers{
+  position: relative;
+  left: 55vw;
+  top: -7vh;
+}
+.launch-getstarted-btns{
+  width: 25vw;
+  font-size: 31px;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  background-color: #281300;
+  border:  2px solid white;
+  border-radius: 30px;
+  font-family: 'Gadugi';
+  font-style: normal;
+  cursor: pointer;
+}
+.launch-getstarted-btns:hover{
+  background-color: #683200;
+}
+.launch_imgs{
+  width: 100vw;
+  height: 40vh;
+}
+
+#launch-clubs{
+  height: 40vh;
 }

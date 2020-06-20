@@ -15,7 +15,7 @@ import FinancialAid from './components/FinancialAid'
 import Residence from './components/Residence'
 import Guidance from './components/Guidance'
 import Tips from './components/Tips'
-// import Majors from './components/Majors'
+import Majors from './components/Majors'
 
 export default class Main extends Component {
   render() {
@@ -34,7 +34,7 @@ export default class Main extends Component {
             <Route exact path="/food" component={Food} />
             <Route exact path="/classes" component={Class} />
             <Route exact path="/health" component={Launch} />
-            {/* <Route exact path="/majors" component={Majors} /> */}
+            <Route exact path="/majors" component={Majors} />
             <Redirect to="/" />
           </Switch>
         </Router>

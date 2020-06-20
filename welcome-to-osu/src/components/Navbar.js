@@ -34,7 +34,7 @@ export default class Navbar extends Component {
           </a>
 
         <div className = "navitem nav1">
-          <a href="/health">
+          <a href="/majors">
             <button class = "navbtn">Careers & Majors</button>    
           </a>      
         </div>

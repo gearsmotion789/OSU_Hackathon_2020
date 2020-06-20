@@ -9,17 +9,36 @@ export default class Launch extends Component{
           <div className="content">
             <div className = "SpaceLaunch">
              <div>Get Ready to Launch at OSU</div>
-             <div className = "GetStarted"> Get Started</div>
+             <button className = "GetStarted"> Get Started</button>
             </div>
              <div className = "NewStudents">
                 Making it easy for new and transfer
-                students joining the Beaver family!U
+                students joining the Beaver family!
               </div>
              <div className = "DiscoverPath">Discover your path
               <div>- Find your major</div>
               <div>- Engage in exciting acticities</div>
               <div>- Explore financial aid options</div>
              </div>
+          </div>
+        </div>
+        <div className = "slide" id = "section1-5">
+          <div className = "underline launch_title">Getting Started</div>
+          <div>1. Choose a path that you enjoy</div>
+          <div className = "launch-getstarted-btn-containers">
+            <button className = "launch-getstarted-btns">Select a Major</button>
+          </div>
+          <div>2. Register for classes</div>
+          <div className = "launch-getstarted-btn-containers">
+            <button className = "launch-getstarted-btns">Pick Classes</button>
+          </div>
+          <div>3. Apply for the OSU scholarship</div>
+          <div className = "launch-getstarted-btn-containers">
+            <button className = "launch-getstarted-btns">Apply for aid</button>
+          </div>
+          <div>4. Learn about pace/style of OSU</div>
+          <div className = "launch-getstarted-btn-containers">
+            <button className = "launch-getstarted-btns">View Class Tips</button>
           </div>
         </div>
         <div className = "slide" id="section2">
@@ -46,7 +65,7 @@ export default class Launch extends Component{
             <div id = "over100majors">
               Over 100+ majors
             </div>
-            <button id = "moreoptions">
+            <button className = " btn outlineBtn moreoptions">
               See More Options
             </button>
             <div id = "csimgcontainer">
@@ -79,11 +98,8 @@ export default class Launch extends Component{
             </div>
           </div>
           <div id = "finalportion">
-           <div className = "inline imgContainers">
-            <img src = {require('../assets/robotics.png')}></img>
-           </div>
-           <div className = "inline imgContainers">
-            <img src= {require('../assets/racecar.png')}></img>
+           <div className = "inline launch_imgs">
+            <img id = "launch-clubs" src = {require('../assets/clubImages.png')}></img>
            </div>
           </div>
         </div>
