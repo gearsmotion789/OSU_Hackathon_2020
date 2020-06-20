@@ -1,42 +1,37 @@
 .majors{
     background-image: url('../assets/osu-memorial-union.png');
     background-repeat: no-repeat;
-    background-size: auto auto;
+    background-size: 100% 100%;
     background-position: center;
     height: 120vh;
-    margin-bottom: 200px;
+    margin-bottom: 21.4vh;
 }
 
-.majorsBlackBox{
+.majorsBlackBox{ 
     background-color: rgb(0,0,0, 0.8);
-    height: 750px;
-    width: 1000px;
+    height: 40vw; /*80.25vh */
+    min-height: calc(420px + 14vw);
+    width: 52vw;
     margin: auto;
     position: absolute;
-    top: 400px;; left: 0; bottom: 0; right: 0;
+    top: 42.8vh; left: 0; bottom: 0; right: 0;
 }
 
 #majorsTitle{
     text-align: center;
-    margin-top: 30px;
-    font-size: 50px;
+    margin-top: 3.21vh;
+    margin-bottom: 6vh;
+    font-size: calc(10px + 2.05vw); /* 50px calc(12px + 2vw) */
 }
 
 #majorsText{
-    margin-top: -38px;
-    margin-bottom: 55px;
-    margin-left: 175px;
-    font-size: 24px;
+    margin-top: -4.066vh;
+    margin-bottom: 5.885vh;
+    margin-left: 9.1vw;
+    font-size: calc(6px + 0.925vw); /* 24px calc(6px + 0.9vw) */
     text-decoration: none;
 }
-#majorsBullet{
-    margin-top: -38px;
-    margin-bottom: 55px;
-    margin-left: 175px;
-    font-size: 24px;
-    float: left;
-    margin-right: 15px;
-}
+
 .majors.majorsBlackBox.majorsText u{
     color: white;
 }
@@ -45,9 +40,9 @@
 }
 
 #majorsRegister{
-    margin-top: -20px;
-    margin-left: 125px;
-    font-size: 30px;
+    margin-top: -2.13vh;
+    margin-left: 6.5vw;
+    font-size: calc(8px + 1.15vw);
 }
 #majorsRegister:hover{
     color: blue;
@@ -61,19 +56,19 @@ hr.majorsLine{
     width: 99.62%;
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: 40px;
+    margin-bottom: 4.28vh;
 }
 
 .info{
-    margin-top: -150px; 
+    margin-top: -16.05vh; 
 }
 
 .majorsCollege{
     color: #DC4405;
-    font-size: 50px;
-    margin-top: 50px;
+    font-size: calc(11px + 2.05vw);
+    margin-top: 5.35vh;
     text-decoration: underline;
-    margin-bottom: 50px;
+    margin-bottom: 5.35vh;
     font-weight: bold;
     text-align: center;
     display: block;
@@ -84,9 +79,9 @@ hr.majorsLine{
 .majorsMajor{
     color: black;
     font-weight: bold;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    font-size: calc(8px + 1.68vw);
+    margin-top: 1.07vh;
+    margin-bottom: 2.14vh;
     display: block;
     text-align: center;
     text-decoration: underline;
@@ -97,46 +92,46 @@ hr.majorsLine{
 }
 .majorsDescription{
     color: black;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: calc(6px + 0.75vw);
+    margin-bottom: 2.14vh;
     text-align: center;
 }
 .majorsExplore{
     color: black;
     font-weight: bold;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 270px;
+    font-size: calc(8px + 1.15vw);
+    margin-top: 1.07vh;
+    margin-bottom: 3.21vh;
+    margin-left: 14vw;
 }
 .majorsListClass{
-    margin-left: 220px;
+    margin-left: 11.5vw;
     color: black;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: calc(6px + 0.75vw);
+    margin-bottom: 2.14vh;
 }
 .majorsListCareer{
     color: black;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-left: 270px;
+    font-size: calc(6px + 0.75vw);
+    margin-bottom: 2.14vh;
+    margin-left: 14vw;
 }
 .majorsbtn{
-    margin-top: 20px;
-    margin-left: 260px;
+    margin-top: 2.14vh;
+    margin-left: 13.5vw;
     border: 2px solid black;
     background-color: #DC4405;
     color: white;
-    padding: 14px 28px;
-    height: 75px;
-    width: 230px;
-    font-size: 20px;
+    padding: 1.49vh 1.25vw;
+    height: 8.025vh;
+    width: 12vw;
+    font-size: calc(6px + 0.75vw);
     text-align: center;
     vertical-align: top;
     cursor: pointer;
     border-radius: 100px;
     outline: none;
-    margin-bottom: 50px;
+    margin-bottom: 5.35vh;
   }
 .majorsbtn:hover{
     background: orangered;

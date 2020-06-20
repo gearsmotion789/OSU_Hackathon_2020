@@ -1,43 +1,46 @@
 .guidanceTitle{
-    margin-top: 50px;
-    margin-left: 50;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-top: 5.35vh;
+    margin-left: 4.25vw;
+    margin-right: 5.25vw;
+    margin-bottom: 5.35vh;
     text-align: center;
-    font-size: 50px;
+    font-size: calc(8px + 2.15vw); 
     color: grey;
 }
 .guidanceImage{
-    margin-left: 41%; /*315 */
-    margin-top: -85px;
+    margin-left: 20.1vw;
+    margin-top: -9.095vh; 
     border-radius: 50px;
+    width: 23vw;
+    height: 28vh;
 }
 .guidanceText{
-    margin-top: 40px;
+    margin-top: 4.28vh;
     margin-left: 4%;
-    font-size: 20px;
+    font-size: calc(2.6px + 0.89vw); 
     color: grey;
 }
 .guidanceLeftText{
     float: left;
     margin-left: 4%;
-    font-size: 20px;
+    font-size: calc(2.6px + 0.89vw);
     color: grey;
 }
 .guidancebtn{
-    margin-top: -150px;
+    margin-top: -16.05vh;
     margin-left: 6%;
     border: 2px solid #707070;
     background-color: white;
     color: #707070;
-    padding: 14px 28px;
-    height: 60px;
-    width: 230px;
+    padding: 1.49vh 1.25vw;
+    height: 6.42vh;
+    width: 12.5vw;
     font-size: 20px;
     text-align: center;
     vertical-align: top;
     cursor: pointer;
     border-radius: 100px;
+    font-size: calc(3.25px + 0.95vw);
     outline: none;
   }
 .guidancebtn:hover{
