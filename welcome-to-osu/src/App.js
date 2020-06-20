@@ -15,8 +15,9 @@ import FinancialAid from './components/FinancialAid'
 import Residence from './components/Residence'
 import Guidance from './components/Guidance'
 import Tips from './components/Tips'
+// import Majors from './components/Majors'
 
-class Main extends Component {
+export default class Main extends Component {
   render() {
     return (
       <div>
@@ -33,6 +34,7 @@ class Main extends Component {
             <Route exact path="/food" component={Food} />
             <Route exact path="/classes" component={Class} />
             <Route exact path="/health" component={Launch} />
+            {/* <Route exact path="/majors" component={Majors} /> */}
             <Redirect to="/" />
           </Switch>
         </Router>
@@ -40,6 +42,3 @@ class Main extends Component {
     );
   }
 }
-
-
-export default Main;

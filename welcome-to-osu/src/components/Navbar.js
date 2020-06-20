@@ -19,34 +19,34 @@ export default class Navbar extends Component {
             <span></span>
 
             <ul id="menu">
-              <a href="http://localhost:3000"><li>Home</li></a>
-              <a href="http://localhost:3000/classes"><li>Classes</li></a>
-              <a href="http://localhost:3000/tips"><li>Tips</li></a>
-              <a href="http://localhost:3000/food"><li>Food</li></a>
-              <a href="http://localhost:3000/health"><li>Health</li></a>
-              <a href="http://localhost:3000/guidance"><li>Guidance</li></a>
+              <a href="/"><li>Home</li></a>
+              <a href="/classes"><li>Classes</li></a>
+              <a href="/tips"><li>Tips</li></a>
+              <a href="/food"><li>Food</li></a>
+              <a href="/health"><li>Health</li></a>
+              <a href="/guidance"><li>Guidance</li></a>
             </ul>
           </div>
 
-          <a href="http://localhost:3000">
+          <a href='/'>
             <img className = "beaver" width= "200"  height = "100" src = {require("../assets/beaverLogo.png")} alt = "Website Logo"/>
             {/* onClick={this.scrollToTop} */}
           </a>
 
         <div className = "navitem nav1">
-          <a href="http://localhost:3000/health">
+          <a href="/health">
             <button class = "navbtn">Careers & Majors</button>    
           </a>      
         </div>
 
         <div className = "navitem nav2">
-          <a href="http://localhost:3000/residence">
+          <a href="/residence">
             <button class = "navbtn">Residence Options</button>    
           </a>      
         </div>
 
         <div className = "navitem nav3">
-          <a href="http://localhost:3000/financial">
+          <a href="/financial">
             <button class = "navbtn">Financial Aid</button>    
           </a>      
         </div>
