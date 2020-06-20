@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Residence.css'
 import { Map, GoogleApiWrapper } from 'google-maps-react';
-const googleMapsKey = "require('../credentials/googleMaps').googleMapsKey";
+const googleMapsKey = require('../credentials/googleMaps').googleMapsKey;
 
 const mapStyles = {
   maxWidth: '1000px',
