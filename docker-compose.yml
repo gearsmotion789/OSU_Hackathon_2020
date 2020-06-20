@@ -2,7 +2,7 @@ version: '3'
 services:
     backend:
         build: .
-        image: welcome-to-osu
+        image: gearsmotion789/welcome-to-osu
         container_name: welcome-to-osu
         ports:
             - 3000:80
