@@ -1,6 +1,6 @@
 .classTitle{
     margin-left: 25px;
-    font-size: 60px;
+    font-size: calc(20px + 2vw);
     color: grey;
   }
   .classLeftImage{
@@ -9,26 +9,30 @@
     margin-top: 15px;
     margin-bottom: 30px;
   }
+
   .classImage{
     margin-right: 2%;
     margin-top: 12px;
     margin-bottom: 10px;
+    max-width: 95vw;
+  }
+  .classimg1cont{
+    width: 55vw;
   }
   .classOrangeBox{
+    position: absolute;
     background-color: #DC4405;
-    width: 320px;
-    height: 160px;
+    width: 20vw;
     padding: 45px;
     padding-top: 50px;
-    margin: 20px;
-    margin-top: 115px;
-    margin-left: 75px;
     border-radius: 50px;
     float: left;
-    font-size: 24px;
+    font-size: 2.2vw;
     color: white;
     text-align: center;
     vertical-align: center;
+    left: 60vw;
+    top: 300px;
   }
   hr.classLine{
     border: 3px solid black;
@@ -51,7 +55,7 @@
     margin-bottom: 8px;
   }
   .classInstruction{
-    font-size: 20px;
+    font-size: 1.5vw;
     color: grey;
     margin-right: 5px;
     margin-bottom: 17px;
@@ -59,15 +63,16 @@
   .classLeftInstruction{
     font-size: 20px;
     color: grey;
-    float: left;
     margin-right: 5px;
     margin-bottom: 12px;
   }
   .myOSULink{
     font-size: 20px;
     text-decoration: underline;
-    float: left;
     margin-right: 5px;
+  }
+  .classresponsive{
+    font-size: 1.5vw;
   }
   .myOSULink:link{
     color: blue;
@@ -77,4 +82,7 @@
   }
   .myOSULink:hover{
     color: #DC4405;
+  }
+  .classcont2{
+
   }
