@@ -20,7 +20,7 @@ import Majors from './components/Majors'
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <div id = "webpage">
         <Navbar />
 
         <Router>
