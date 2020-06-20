@@ -1,0 +1,36 @@
+.foodSection{
+    font-family: 'Gadugi';
+}
+
+#foodTitle{
+    color: #707070;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.foodImg{
+    width: 700px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.foodBox{
+    background-image: url('../assets/Rectangle 12.png');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: center;
+}
+
+#foodDescription{
+    color: white;
+    font-size: 30px;
+    margin-top: 175px;
+    margin-left: 200px;
+    width: 500px;
+}
+
+.restaurantBtn{
+    margin-top: 20px;
+    margin-left: 200px;
+}

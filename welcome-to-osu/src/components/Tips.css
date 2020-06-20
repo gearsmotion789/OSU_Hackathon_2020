@@ -1,0 +1,52 @@
+.takeclass{
+  font-size: 25px;
+}
+
+.takeclass-pagesize{
+  height: 100vh;
+  margin-right: 100px;
+}
+.takeclass-title{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 10vh;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.takeclass-sortabigfont{
+  font-size: 40px;
+}
+
+.takeclass-pagesize div{
+  padding-left: 5vw;
+}
+
+
+#takeclass-indent div{
+  padding-left: 2vw;
+}
+.takeclass-inline{
+  position: relative;
+  top: -34px;
+  left: 30px;
+  width: 80%;
+}
+.takeclass-btnContainer{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  position: relative;
+  left: 1vw;
+}
+.takeclass-btn{
+  font-size: 20px;
+  background-color: #DC4405;
+  color: white;
+  border: 5px solid black;
+}
+
+/* #takeclass-btn:hover{
+  background-color: orangered;
+  cursor: pointer;
+} */

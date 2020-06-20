@@ -1,0 +1,93 @@
+.finaid-underheader{
+  background-color: white;
+  color: grey;
+  height: 85.95vh;
+}
+
+.finaid-bigpage{
+  background-color: white;
+  color: grey;
+  height: 250vh;
+}
+
+
+#finaid-takeadvantage{
+  padding-top: 18vh;
+  padding-left: 10vw;
+  font-size: 42px;
+  width: 50vw;
+}
+.finaid-underline{
+  text-decoration: underline;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.finaid-WhiteOnOrange{
+  color: white;
+  background-color: #DC4405;
+}
+.finaid-relative{
+  position: relative;
+}
+.finaid-absolute{
+  position: absolute;
+}
+.finaid-OrangeOnWhite{
+  color: #DC4405;
+  background-color: white;
+}
+.finaid-scholardollar{
+  width: 50%;
+  padding-left: 8vw;
+}
+.finaid-upto10k{
+  text-align: center;
+  left: 65vw;
+  width: 26vw;
+  top: -20vh;
+  font-size: 36px;
+  padding: 65px 25px 65px 25px;
+  border-radius: 55px;
+}
+
+.finaid-how-to-apply{
+  position: relative;
+  padding-left: 10vw;
+  width: 26vw;
+  font-size: 40px;
+  top: -20vh;
+}
+/*
+.temp{
+  background-color: blue;
+}*/
+.finaid-pad{
+  color: grey;
+  padding-left: 6.5vw;
+  font-size: 28px;
+}
+
+.finaid-step{
+  color: #DC4405;
+  padding-top: 10vh;
+  font-size: 30px;
+}
+.finaid-extrapad{
+  padding-left: 3.5vw;
+}
+.finaid-siteimgcontainer{
+  padding-top: 2vh;
+  width: 677px;
+  height: 381px;
+}
+.finaid-small-width{
+  width: 80%;
+}
+
+.finaid-smaller-width{
+  width: 66%;
+}

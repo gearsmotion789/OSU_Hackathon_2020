@@ -1,0 +1,80 @@
+.classTitle{
+    margin-left: 25px;
+    font-size: 60px;
+    color: grey;
+  }
+  .classLeftImage{
+    float: left;
+    margin-right: 2%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .classImage{
+    margin-right: 2%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+  .classOrangeBox{
+    background-color: #DC4405;
+    width: 320px;
+    height: 160px;
+    padding: 45px;
+    padding-top: 50px;
+    margin: 20px;
+    margin-top: 115px;
+    margin-left: 75px;
+    border-radius: 50px;
+    float: left;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+  }
+  hr.classLine{
+    border: 3px solid black;
+    position: absolute;
+    margin-top: 520px;
+    width: 99.62%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .classProcess{
+    margin-left: 25px;
+    margin-top: 550px;
+  }
+  .classStep{
+    white-space: pre;
+    font-size: 25px;
+    color: #DC4405;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 8px;
+  }
+  .classInstruction{
+    font-size: 20px;
+    color: grey;
+    margin-right: 5px;
+    margin-bottom: 17px;
+  }
+  .classLeftInstruction{
+    font-size: 20px;
+    color: grey;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 12px;
+  }
+  .myOSULink{
+    font-size: 20px;
+    text-decoration: underline;
+    float: left;
+    margin-right: 5px;
+  }
+  .myOSULink:link{
+    color: blue;
+  }
+  .myOSULink:visited {
+    color: purple;
+  }
+  .myOSULink:hover{
+    color: #DC4405;
+  }
