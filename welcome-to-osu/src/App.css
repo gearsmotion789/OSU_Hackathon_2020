@@ -27,5 +27,12 @@ p{
 
 .grid-parent {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 50vh 50vh
 }
+=======
+  grid-template-columns: 1fr 1fr
+}
+
+body {  min-width:1000px; }
+>>>>>>> cb5135211d9b2aa3fd43eb5ba81fa10a62eeeaa7

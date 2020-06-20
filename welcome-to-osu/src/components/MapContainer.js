@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Residence.css'
 import { Map, GoogleApiWrapper } from 'google-maps-react';
-const googleMapsKey = require('../credentials/googleMaps').googleMapsKey;
+const googleMapsKey = "require('../credentials/googleMaps').googleMapsKey";
 
 const mapStyles = {
   maxWidth: '1000px',
@@ -18,7 +18,7 @@ export class MapContainer extends Component {
           style={mapStyles}
           initialCenter={{
             lat: 44.564,
-            lng: -123.279          
+            lng: -123.279
           }}
         />
     );
