@@ -61,7 +61,7 @@ img{
   padding-left: 10vw;
   width: 26vw;
   font-size: calc(20px + 1.2vw);
-  top: 0vh;
+  top: 5vh;
 }
 /*
 .temp{
@@ -106,5 +106,5 @@ img{
 }
 
 #financialLineBreak{
-  border: 2px solid orange;
+  border: 2px solid black;
 }

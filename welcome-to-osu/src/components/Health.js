@@ -8,11 +8,11 @@ export default class Health extends Component{
             <div class='grid-parent studentHealthServicesSection'>
                     <div>
                         <p id='title'>Student Health Services</p>
-                        <a href="/" target="_blank">
+                        <a href="https://studenthealth.oregonstate.edu/" target="_blank">
                             <button class="btn outlineBtn btn1">Check out more information</button>
                         </a>
                         <p id='txt1'>Also has a pharamcy at the Plageman Student Health Center (PSHC) at 108 SW Memorial Place</p>
-                        <a href="/" target="_blank">
+                        <a href="https://studenthealth.oregonstate.edu/fees-insurance-and-forms" target="_blank">
                             <button class="btn outlineBtn btn2">Find out more about fees, insurances, and forms</button>
                         </a>
                     </div>
@@ -35,7 +35,7 @@ export default class Health extends Component{
             <div class='gymSection'>
                 <div>
                     <p id='title'>Gym</p>
-                    <a href="/" target="_blank">
+                    <a href="https://recsports.oregonstate.edu/" target="_blank">
                         <button class="btn outlineBtn btn1">Check out more info</button>
                     </a>
                 </div>

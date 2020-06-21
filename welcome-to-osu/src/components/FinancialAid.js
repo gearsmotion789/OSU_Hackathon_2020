@@ -14,6 +14,7 @@ export default class FinancialAid extends Component{
           <div className = "finaid-relative finaid-WhiteOnOrange finaid-upto10k"> Receive up to $10,000+ in scholarships from OSU and connected providers</div>
           <div className = "finaid-OrangeOnWhite finaid-how-to-apply">Read this Guide to find out how to apply</div>
         </div>
+        
         <hr id='financialLineBreak'/>
 
         <div className = "finaid-bigpage finaid-pad">
