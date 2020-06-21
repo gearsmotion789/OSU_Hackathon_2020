@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Launch.css";
 
 export default class Launch extends Component{
@@ -9,7 +10,13 @@ export default class Launch extends Component{
           <div className="content">
             <div className = "SpaceLaunch">
              <div>Get Ready to Launch at OSU</div>
-             <button className = "GetStarted"> Get Started</button>
+             <Link activeClass="active" to="section1-5"
+                 spy={true}
+                 smooth={true}
+                 offset={-100}
+                 duration={500}>
+               <button className = "GetStarted"> Get Started</button>
+             </Link>
             </div>
              <div className = "NewStudents">
                 Making it easy for new and transfer
@@ -23,22 +30,34 @@ export default class Launch extends Component{
           </div>
         </div>
         <div className = "slide" id = "section1-5">
-          <div className = "underline launch_title">Getting Started</div>
+          <div className = "underline launch_title" id = "orangepart">Getting Started</div>
           <div>1. Choose a path that you enjoy</div>
           <div className = "launch-getstarted-btn-containers">
+          <Link activeClass="active" to="section2"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}>
             <button className = "launch-getstarted-btns">Select a Major</button>
+            </Link>
           </div>
           <div>2. Register for classes</div>
           <div className = "launch-getstarted-btn-containers">
-            <button className = "launch-getstarted-btns">Pick Classes</button>
+            <a href = "/classes">
+              <button className = "launch-getstarted-btns">Pick Classes</button>
+            </a>
           </div>
           <div>3. Apply for the OSU scholarship</div>
           <div className = "launch-getstarted-btn-containers">
-            <button className = "launch-getstarted-btns">Apply for aid</button>
+            <a href = "/financial">
+              <button className = "launch-getstarted-btns">Apply for aid</button>
+            </a>
           </div>
           <div>4. Learn about pace/style of OSU</div>
           <div className = "launch-getstarted-btn-containers">
-            <button className = "launch-getstarted-btns">View Class Tips</button>
+            <a href = "/tips">
+              <button className = "launch-getstarted-btns">View Class Tips</button>
+            </a>
           </div>
         </div>
         <div className = "slide" id="section2">
@@ -65,9 +84,11 @@ export default class Launch extends Component{
             <div id = "over100majors">
               Over 100+ majors
             </div>
-            <button className = " btn outlineBtn moreoptions">
-              See More Options
-            </button>
+            <a href = "/majors">
+              <button className = " btn outlineBtn moreoptions">
+                See More Options
+              </button>
+            </a>
             <div id = "csimgcontainer">
               <img id = "csimg" src ={require('../assets/comp-cover.png')}></img>
             </div>
@@ -93,7 +114,9 @@ export default class Launch extends Component{
             <div className = "clubstext">Over 100+ Clubs</div>
             <div>to Join</div>
             <div id = 'clubsbuttoncontainer'>
-            <button className = 'btn outlineBtn moreclubs'> Check out More Clubs</button>
+            <a href = "https://sli.oregonstate.edu/find-organization">
+              <button className = 'btn outlineBtn moreclubs'> Check out More Clubs</button>
+            </a>
             </div>
             </div>
           </div>

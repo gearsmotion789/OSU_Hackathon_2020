@@ -18,7 +18,7 @@ export default class FinancialAid extends Component{
           <div>Prerequisites</div>
           <div>- Make sure you have fulfilled and submitted your FAFSA application to OSU</div>
           <div className = "finaid-step">Step 1:</div>
-          <div className = "finaid-extrapad">Go to <span className = "underline">ScholarDollars</span> and click Sign in </div>
+          <div className = "finaid-extrapad">Go to <a href = "https://oregonstate.academicworks.com/"> <span className = "underline">ScholarDollars</span></a> and click Sign in </div>
           <div className = "imgContainer finaid-siteimgcontainer" >
             <img src = {require("../assets/scholardollarssite.png")}></img>
           </div>
