@@ -9,7 +9,7 @@ export default class Launch extends Component{
         <div className = "slide" id="section1">
           <div className="content">
             <div className = "SpaceLaunch">
-             <div>Get Ready to Launch at OSU</div>
+             <div id = "get Ready">Get Ready to Launch at OSU</div>
              <Link activeClass="active" to="section1-5"
                  spy={true}
                  smooth={true}
@@ -22,7 +22,7 @@ export default class Launch extends Component{
                 Making it easy for new and transfer
                 students joining the Beaver family!
               </div>
-             <div className = "DiscoverPath">Discover your path
+             <div className = "DiscoverPath"> <div className = "underline">Discover your path</div>
               <div>- Find your major</div>
               <div>- Engage in exciting acticities</div>
               <div>- Explore financial aid options</div>
@@ -30,7 +30,7 @@ export default class Launch extends Component{
           </div>
         </div>
         <div className = "slide" id = "section1-5">
-          <div className = "underline launch_title" id = "orangepart">Getting Started</div>
+          <div className = "underline launch_title launch-titles" id = "orangepart">Getting Started</div>
           <div>1. Choose a path that you enjoy</div>
           <div className = "launch-getstarted-btn-containers">
           <Link activeClass="active" to="section2"
@@ -62,7 +62,7 @@ export default class Launch extends Component{
         </div>
         <div className = "slide" id="section2">
           <div className = "greyback">
-            <div className = "Majors">Majors</div>
+            <div className = "Majors launch-titles">Majors</div>
             <div className = "inline">
               <div> - Accountancy</div>
               <div> - Bioengineering</div>
@@ -92,11 +92,13 @@ export default class Launch extends Component{
             <div id = "csimgcontainer">
               <img id = "csimg" src ={require('../assets/comp-cover.png')}></img>
             </div>
+            <hr className = "temp"/>
           </div>
+
         </div>
         <div  className = "slide" id="section3">
           <div id = "activities">
-            <div className = "act-titles">
+            <div className = "act-titles launch-titles">
               Activities
             </div>
             <div className = "inline">
