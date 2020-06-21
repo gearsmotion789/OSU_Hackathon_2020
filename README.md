@@ -2,11 +2,14 @@
 
 ### Prerequisites
 - get your API key from the Google Cloud console, and enable Maps API
+- add this key in welcome-to-osu/src/credentials/googleMaps.js
 
 ```
+# Running locally with Node
 npm install
 npm run build
-docker build -t gearsmotion789/welcome-to-osu .
+
+# Running locally with Docker
+docker pull gearsmotion789/welcome-to-osu
 docker-compose up -d
-docker push gearsmotion789/welcome-to-osu
 ```

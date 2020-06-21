@@ -18,8 +18,8 @@ export default class Food extends Component{
                             to select from, ranging from Italian dishes to
                             Asian cuisines to American barbeque.
                         </p>
-                        <a href = "https://food.oregonstate.edu/">
-                        <button class="btn outlineBtn restaurantBtn">See Restaurants</button>
+                        <a href = "https://food.oregonstate.edu/" target="_blank">
+                            <button class="btn outlineBtn restaurantBtn">See Restaurants</button>
                         </a>
                     </div>
             </div>
