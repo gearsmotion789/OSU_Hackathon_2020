@@ -1,13 +1,14 @@
 .classTitle{
-    margin-left: 25px;
+    margin-left: 50px;
     font-size: calc(20px + 2vw);
     color: grey;
+    height: 20vh;
+    margin-top: 10vh;
   }
   .classLeftImage{
     float: left;
     margin-right: 2%;
     margin-top: 15px;
-    margin-bottom: 30px;
   }
 
   .classImage{
@@ -17,6 +18,8 @@
     max-width: 95vw;
   }
   .classimg1cont{
+    margin-top: 5vh;
+    margin-left: 2vw;
     width: 55vw;
   }
   .classOrangeBox{
@@ -27,12 +30,11 @@
     padding-top: 50px;
     border-radius: 50px;
     float: left;
-    font-size: 2.2vw;
+    font-size: 1.8vw;
     color: white;
     text-align: center;
     vertical-align: center;
     left: 60vw;
-    top: 200px;
   }
   hr.classLine{
     border: 3px solid black;
@@ -44,7 +46,7 @@
   }
   .classProcess{
     margin-left: 25px;
-    margin-top: 550px;
+    margin-top: 600px;
   }
   .classStep{
     white-space: pre;

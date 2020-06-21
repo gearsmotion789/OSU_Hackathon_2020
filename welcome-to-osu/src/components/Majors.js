@@ -50,7 +50,7 @@ export default class Majors extends Component{
                     </Link>
                     
                     <p id='majorsText'>> <a href="http://vetmed.oregonstate.edu/" target="_blank"><u id="majorsColor">Veterinary Medicine</u></a></p>
-                    <p id='majorsRegister'><a href="myosu.oregonstate.edu"> <u>Learn how to register for classes</u></a></p>
+                    <p id='majorsRegister'><a href="/classes"> <u>Learn how to register for classes</u></a></p>
                 </div>   
             </div>
             <div class='info'>
