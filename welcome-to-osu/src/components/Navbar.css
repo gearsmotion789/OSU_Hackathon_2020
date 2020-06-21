@@ -3,8 +3,9 @@ body {
 }
 
 .beaver{
-  margin-top: -10px;
+  margin-top: 15px;
   margin-bottom: 10px;
+  height: 90px;
 }
 
 .beaver:hover {
@@ -18,6 +19,7 @@ header.header{
   top: 0px;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   z-index: 1;
+  height: 120px;
 }
 header.header div{
   display: inline-block;
@@ -135,8 +137,9 @@ margin-left: 425px;
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 95%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 45px;
   
   z-index: 1;
   
@@ -186,7 +189,7 @@ margin-left: 425px;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   
   z-index: 1;
@@ -253,7 +256,7 @@ margin-left: 425px;
   padding-bottom: 0px;
   height: 86.5vh;
   
-  background: #ededed;
+  background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
