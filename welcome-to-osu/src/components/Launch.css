@@ -114,6 +114,7 @@ body {
 .inline{
   display:inline-block;
   padding-right: 1px;
+  vertical-align: top;
 }
 .greyback div.Majors{
   font-size: 70px;
@@ -261,5 +262,5 @@ img{
 .launch-clubs-move-up{
   position: relative;
   top: -38vh;
-  left: 62vw;
+  left: 65vw;
 }
