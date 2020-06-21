@@ -112,16 +112,19 @@ export default class Launch extends Component{
               <div>- Overclock Club</div>
               <div>- Security Club</div>
             </div>
-            <div className = "inline">
-            <div className = "clubstext">Over 100+ Clubs</div>
-            <div>to Join</div>
-            <div id = 'clubsbuttoncontainer'>
-            <a href = "https://sli.oregonstate.edu/find-organization">
-              <button className = 'btn outlineBtn moreclubs'> Check out More Clubs</button>
-            </a>
+
+            <div className = "launch-clubs-move-up">
+              <div className = "clubstext">Over 100+ Clubs</div>
+              <div>to Join</div>
+              <div id = 'clubsbuttoncontainer'>
+                <a href = "https://sli.oregonstate.edu/find-organization" target="_blank">
+                  <button className = 'btn outlineBtn moreclubs'> Check out More Clubs</button>
+                </a>
+              </div>
             </div>
-            </div>
+
           </div>
+
           <div id = "finalportion">
            <div className = "inline launch_imgs">
             <img id = "launch-clubs" src = {require('../assets/clubImages.png')}></img>

@@ -133,13 +133,13 @@ body {
   top: 3vw;
   width: 25vw;
   font-size: 3vw;
-  left: 73vw;
+  left: 65vw;
 }
 
 .moreoptions{
   position: absolute;
   top: 10vw;
-  left: 79vw;
+  left: 70vw;
   padding: 10px;
   width: 17vw;
   border: 2px solid #707070;
@@ -257,4 +257,9 @@ img{
   margin: 0px 0px 0px 0px;
   position:relative;
   top: 30vh;
+}
+.launch-clubs-move-up{
+  position: relative;
+  top: -38vh;
+  left: 62vw;
 }
