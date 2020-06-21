@@ -51,7 +51,7 @@ img{
   left: 65vw;
   width: 26vw;
   top: 5vh;
-  font-size: calc(20px + 1.2vw);
+  font-size: calc(15px + 1.2vw);
   padding: 65px 25px 65px 25px;
   border-radius: 55px;
 }
@@ -97,4 +97,14 @@ img{
 .finaid-smaller-width{
   width: 66%;
   font-size: calc(10px + 1.2vw);
+}
+
+.financialImg{
+  width: 30vw;
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+
+#financialLineBreak{
+  border: 2px solid orange;
 }

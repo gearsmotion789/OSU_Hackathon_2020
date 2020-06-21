@@ -8,7 +8,7 @@ export default class Class extends Component {
         <div>
           <div className = "classTitle">
            <div>Learn How to Register for Classes</div>
-           <div className = "classimgcontainer classimg1cont">
+           <div className = "classimg1cont">
             <img className = "classLeftImage" width= "800"  height = "480" src = {require("../assets/class.png")} alt = "Lecture"></img>
            </div>
            <div className = "classOrangeBox">Figuring out how to register for classes isn't an easy task, but with this handy guide you'll be set up in a matter of minutes!</div>

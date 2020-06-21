@@ -9,16 +9,18 @@ export default class FinancialAid extends Component{
         <div className = "finaid-underheader">
           <div id ="finaid-takeadvantage">Take advantage of OSU Scholarships provided just for <span className = "underline">YOU</span> with...</div>
           <div className = "imgContainer finaid-scholardollar">
-            <img src = {require("../assets/scholardollars.png")}></img>
+            <img class='financialImg' src = {require("../assets/scholardollars.png")}></img>
           </div>
           <div className = "finaid-relative finaid-WhiteOnOrange finaid-upto10k"> Receive up to $10,000+ in scholarships from OSU and connected providers</div>
           <div className = "finaid-OrangeOnWhite finaid-how-to-apply">Read this Guide to find out how to apply</div>
         </div>
+        <hr id='financialLineBreak'/>
+
         <div className = "finaid-bigpage finaid-pad">
-          <div>Prerequisites</div>
+          <div><u>Prerequisites</u></div>
           <div>- Make sure you have fulfilled and submitted your FAFSA application to OSU</div>
           <div className = "finaid-step">Step 1:</div>
-          <div className = "finaid-extrapad">Go to <a href = "https://oregonstate.academicworks.com/"> <span className = "underline">ScholarDollars</span></a> and click Sign in </div>
+          <div className = "finaid-extrapad">Go to <a href = "https://oregonstate.academicworks.com/" target="_blank"> <span className = "underline">ScholarDollars</span></a> and click Sign in </div>
           <div className = "imgContainer finaid-siteimgcontainer" >
             <img src = {require("../assets/scholardollarssite.png")}></img>
           </div>

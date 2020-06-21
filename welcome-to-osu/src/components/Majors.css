@@ -44,10 +44,6 @@
     margin-left: 6.5vw;
     font-size: calc(8px + 1.15vw);
 }
-#majorsRegister:hover{
-    color: blue;
-}
-
 
 hr.majorsLine{
     border: 5px solid black;

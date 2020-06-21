@@ -60,5 +60,8 @@
     margin:0 auto;
     display: block;
     margin-top: 20px;
-    
+}
+
+.residenceLink{
+    text-decoration: none;
 }

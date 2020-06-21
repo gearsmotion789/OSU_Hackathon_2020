@@ -10,12 +10,22 @@ export default class Residence extends Component{
                 <div class='residenceBlackBox'>
                     <p id='residenceTitle'>Residence Options</p>
                     <p id='residenceBulletPoint'>> On-Campus:</p>
-                    <p id='residenceText'>> <u>Living-Learning Communities</u></p>
-                    <p id='residenceText'>> <u>Special Interest Communities</u></p>
-                    <p id='residenceText'>> <u>See all OSU Residence Halls</u></p>
+                    <a class='residenceLink' href="/" target="_blank">
+                        <p id='residenceText'>> <u>Living-Learning Communities</u></p>
+                    </a>
+                    <a class='residenceLink' href="/" target="_blank">
+                        <p id='residenceText'>> <u>Special Interest Communities</u></p>
+                    </a>
+                    <a class='residenceLink' href="/" target="_blank">
+                        <p id='residenceText'>> <u>See all OSU Residence Halls</u></p>
+                    </a>
                     <p id='residenceBulletPoint'>> Off-Campus:</p>
-                    <p id='residenceText'>> <u>Apartments</u></p>
-                    <p id='residenceText'>> <u>Houses for Rent</u></p>
+                    <a class='residenceLink' href="/" target="_blank">
+                        <p id='residenceText'>> <u>Apartments</u></p>
+                    </a>
+                    <a class='residenceLink' href="/" target="_blank">
+                        <p id='residenceText'>> <u>Houses for Rent</u></p>
+                    </a>
                 </div>
             </div>
 
