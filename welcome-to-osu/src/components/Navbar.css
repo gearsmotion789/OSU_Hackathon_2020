@@ -250,13 +250,12 @@ margin-left: 425px;
   margin: -100px 0 0 -200px;
   padding: 50px;
   padding-top: 125px;
-  height: 734px;
 
   padding-top: 16vh;
   padding-bottom: 0px;
-  height: 86.5vh;
+  height: 87.5vh;
   
-  background: white;
+  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
