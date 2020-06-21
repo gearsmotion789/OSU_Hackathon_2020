@@ -4,12 +4,12 @@
     margin-right: 5.25vw;
     margin-bottom: 5.35vh;
     text-align: center;
-    font-size: calc(8px + 2.15vw); 
+    font-size: calc(8px + 2.15vw);
     color: grey;
 }
 .guidanceImage{
     margin-left: 20.1vw;
-    margin-top: -9.095vh; 
+    margin-top: -9.095vh;
     border-radius: 50px;
     width: 23vw;
     height: 28vh;
@@ -17,7 +17,7 @@
 .guidanceText{
     margin-top: 4.28vh;
     margin-left: 4%;
-    font-size: calc(2.6px + 0.89vw); 
+    font-size: calc(2.6px + 0.89vw);
     color: grey;
 }
 .guidanceLeftText{
@@ -33,7 +33,6 @@
     background-color: white;
     color: #707070;
     padding: 1.49vh 1.25vw;
-    height: 6.42vh;
     width: 12.5vw;
     font-size: 20px;
     text-align: center;
