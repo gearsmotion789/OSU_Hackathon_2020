@@ -3,12 +3,8 @@ body {
 }
 
 .beaver{
-  height: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  margin-left: 30px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .beaver:hover {
@@ -22,8 +18,6 @@ header.header{
   top: 0px;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   z-index: 1;
-  height: 120px;
-  
 }
 header.header div{
   display: inline-block;
@@ -48,6 +42,8 @@ header.header div{
   color: white;
   padding: 14px 28px;
   height: 75px;
+  width: 275px;
+  font-size: 24px;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -59,36 +55,91 @@ header.header div{
 }
 
 .navitem{
-  height: 62px; 
-  width: 50vw;
-  font-size: calc(10px + 1.2vw);
-  margin-left: 10px;
-  top: 44%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: center;
-  position: absolute; 
+height: 62px; 
+width: 250px;
+font-size: 24px;
+margin-left: 10px;
+top: 44%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+text-align: center;
+position: absolute; 
+/*border-radius: 10px;
+color: white;
+background-color: #DC4405;
+/*border-color: white;
+border-width: 3px;
+border-style: solid;*/
 }
 .nav1{
-  margin-left: 20px;
+margin-left: 75px;
 }
 .nav2{
-  margin-left: 20vw;
+margin-left: 425px;
 }
 .nav3{
-  margin-left: 30vw;
+  margin-left: 775px;
 }
+.SpaceLaunch{
+  position: absolute;
+  background-image: url("https://i.pinimg.com/originals/bb/86/10/bb861023558c9a24a81f83f519df09a1.jpg");
+  background-size: cover;
+  display: inline-block;
+  width: 775px;
+  height: 650px;
+  top: 130px;
+  left: 30px;
+  border-radius: 90px;
+  color: white;
+}
+.SpaceLaunch div{
+  margin-left: 10px;
+  position: absolute;
+  top: 25%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: left;
+  border-radius: 10px;
+  font-size: 45px;
+  display:  inline-block;
+  width: 400px;
+  margin-left: 40px;
+}
+.SpaceLaunch div.GetStarted{
+  width: 200px;
+  top:30%;
+  margin-left: 420px;
+  font-size: 35px;
+  background-color: #ff7702;
+  border-radius: 18px;
+  text-align: center;
+}
+.NewStudents{
+  font-size: 35px;
+  position: absolute;
+  color: grey;
+  top: 150px;
+  left: 950px;
+  width: 280px;
+}
+.DiscoverPath{
+  font-size: 45px;
+  color: grey;
+  position: absolute;
+  left: 850px;
+  top: 300px;
+}
+
 
 #menuToggle
 {
   display: block;
   position: relative;
   top: 50px;
-  right: 40px;
-  float: right;
-
+  left: 95%;
+  
   z-index: 1;
-
+  
   -webkit-user-select: none;
   user-select: none;
 }
@@ -97,7 +148,7 @@ header.header div{
 {
   text-decoration: none;
   color: #232323;
-
+  
   transition: color 0.3s ease;
 }
 
@@ -115,12 +166,12 @@ header.header div{
   position: absolute;
   top: -7px;
   left: -5px;
-
+  
   cursor: pointer;
-
+  
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-
+  
   -webkit-touch-callout: none;
 }
 
@@ -134,13 +185,14 @@ header.header div{
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: white;
+  
+  background: #cdcdcd;
   border-radius: 3px;
-
+  
   z-index: 1;
-
+  
   transform-origin: 4px 0px;
-
+  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -156,7 +208,7 @@ header.header div{
   transform-origin: 0% 100%;
 }
 
-/*
+/* 
  * Transform all the slices of hamburger
  * into a crossmark.
  */
@@ -195,20 +247,20 @@ header.header div{
   margin: -100px 0 0 -200px;
   padding: 50px;
   padding-top: 125px;
-  height: 100vh;
+  height: 734px;
 
   padding-top: 16vh;
   padding-bottom: 0px;
   height: 86.5vh;
-
+  
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-
+  
   transform-origin: 0% 0%;
   transform: translate(80%, 0);
-
+  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
