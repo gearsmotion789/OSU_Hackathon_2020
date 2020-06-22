@@ -7,7 +7,7 @@
 ```
 # Running locally with Node
 npm install
-npm run build
+npm start
 
 # Running locally with Docker
 docker pull gearsmotion789/welcome-to-osu
